@@ -1,1 +1,11 @@
-# repo-template
+
+  # Start Led
+
+  This is a code bundle for Start Led. The original project is available at https://www.figma.com/design/GVGZY1cNTdcM6EhMMsZonu/Start-Led.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
