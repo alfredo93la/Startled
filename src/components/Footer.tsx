@@ -1,4 +1,4 @@
-import { Instagram, Phone, Mail } from 'lucide-react';
+import { Instagram, Phone, Mail, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
