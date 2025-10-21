@@ -8,19 +8,19 @@ export function NuestrosCompromisos() {
       icon: Award,
       title: 'Calidad',
       description: 'Estamos comprometidos con la calidad en el servicio con un trato personalizado, especializado, amable y responsable.',
-      bgImage: 'https://images.unsplash.com/photo-1758448511255-ac2a24a135d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWFsaXR5JTIwZXhjZWxsZW5jZSUyMHByZW1pdW18ZW58MXx8fHwxNzYwOTI3NzMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      bgImage: '/assets/calidad.jpg'
     },
     {
       icon: Shield,
       title: 'Confiabilidad',
       description: 'Estamos conscientes que el cliente requiere de ofrecer credibilidad en sus servicios o productos, por lo que, nuestras pantallas, nuestro equipo técnico y de soporte están para ofrecer la mejor calidad para ofrecer esa seguridad requerida.',
-      bgImage: 'https://images.unsplash.com/photo-1740111079984-9cf9365184b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVzdCUyMHJlbGlhYmlsaXR5JTIwc2VjdXJpdHl8ZW58MXx8fHwxNzYwOTI3NzMzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      bgImage: '/assets/confiabilidad.jpg'
     },
     {
       icon: Lightbulb,
       title: 'Innovación',
       description: 'Contamos con pantallas de 3.9, 2.9 mm y lo último en 2.6 mm Pixel Pitch de 1000 nits con resolución de alta definición para exposición frontal, horizontal, vertical o cenital de forma recta o curva.',
-      bgImage: 'https://images.unsplash.com/photo-1594948506928-2d4cad88d0af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbm5vdmF0aW9uJTIwdGVjaG5vbG9neSUyMG1vZGVybnxlbnwxfHx8fDE3NjA5Mjc3MzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      bgImage: '/assets/innovacion.jpg'
     }
   ];
 
@@ -49,7 +49,7 @@ export function NuestrosCompromisos() {
                   alt={compromiso.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#1e3a4c]/45 via-[#2a1a5e]/40 to-[#1e3a4c]/50"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-[#1e3a4c]/85 via-[#2a1a5e]/65 to-[#1e3a4c]/85"></div>
               </div>
               
               <CardContent className="p-8 text-center relative z-10">

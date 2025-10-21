@@ -1,0 +1,5 @@
+node_modules
+PHPMailer
+dist
+build
+*.log

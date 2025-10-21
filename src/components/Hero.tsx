@@ -14,11 +14,11 @@ export function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url('/assets/hero.png')` }}
       ></div>
       
       {/* Gradient Overlay - Más transparente para ver mejor la imagen */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a4c]/70 via-[#2a1a5e]/60 to-[#1e3a4c]/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a4c]/60 via-[#2a1a5e]/50 to-[#1e3a4c]/60"></div>
       
       {/* Diagonal accent */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-[#00d4ff]/10 to-transparent transform skew-x-12"></div>

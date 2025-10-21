@@ -5,6 +5,7 @@ import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
 import { toast } from 'sonner@2.0.3';
 import { useState } from 'react';
+import axios from 'axios';
 
 export function Contacto() {
   const [formData, setFormData] = useState({
@@ -14,11 +15,21 @@ export function Contacto() {
     mensaje: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast.success('¡Mensaje enviado! Nos pondremos en contacto contigo pronto.');
-    setFormData({ nombre: '', email: '', telefono: '', mensaje: '' });
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  try {
+    const response = await axios.post('https://startled.com.mx/contacto.php', formData);
+    if (response.data.status === 'success') {
+      toast.success('¡Mensaje enviado! Nos pondremos en contacto contigo pronto.');
+      setFormData({ nombre: '', email: '', telefono: '', mensaje: '' });
+    } else {
+      toast.error('Error al enviar el mensaje. Intenta más tarde.');
+    }
+  } catch (error) {
+    console.error(error);
+    toast.error('Error al enviar el mensaje. Intenta más tarde.');
+  }
+};
 
   const contactInfo = [
     {

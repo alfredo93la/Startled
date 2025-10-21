@@ -44,150 +44,185 @@ export function Galeria() {
   const eventos: Evento[] = [
     {
       id: 1,
-      titulo: "Evento Corporativo Tech Summit 2024",
-      fecha: "15 de Marzo, 2024",
-      ubicacion: "Centro de Convenciones",
-      categoria: "Corporativo",
-      descripcion:
-        "Instalación de pantallas LED para conferencia tecnológica con más de 500 asistentes",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBldmVudCUyMGxlZCUyMHNjcmVlbnxlbnwxfHx8fDE3NjA0MjE3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'ANIDIGRAF',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Anidigraf/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBldmVudCUyMGxlZCUyMHNjcmVlbnxlbnwxfHx8fDE3NjA0MjE3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbmZlcmVuY2UlMjBwcmVzZW50YXRpb258ZW58MXx8fHwxNzYwNDIxNzc2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBtZWV0aW5nJTIwcm9vbXxlbnwxfHx8fDE3NjA0MjE3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZW1pbmFyJTIwYXVkaWVuY2V8ZW58MXx8fHwxNzYwNDIxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/Anidigraf/01.jpg'
+      ]
     },
     {
       id: 2,
-      titulo: "Conferencia Internacional de Innovación",
-      fecha: "22 de Febrero, 2024",
-      ubicacion: "Hotel Grand Plaza",
-      categoria: "Conferencia",
-      descripcion:
-        "Soluciones LED de alta resolución para presentaciones corporativas",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwY29uZmVyZW5jZSUyMHN0YWdlfGVufDF8fHx8MTc2MDQyMTc3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'AstraZeneca',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/AstraZeneca/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwY29uZmVyZW5jZSUyMHN0YWdlfGVufDF8fHx8MTc2MDQyMTc3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1566140967404-b8b3932483f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBnYXRoZXJpbmd8ZW58MXx8fHwxNzU5OTY3ODUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBzZXJ2aWNlc3xlbnwxfHx8fDE3NTk4ODk4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/AstraZeneca/01.jpg'
+      ]
     },
     {
       id: 3,
-      titulo: "Concierto Música en Vivo",
-      fecha: "10 de Abril, 2024",
-      ubicacion: "Estadio Municipal",
-      categoria: "Entretenimiento",
-      descripcion:
-        "Pantallas LED gigantes para concierto masivo al aire libre",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwc3RhZ2UlMjBsaWdodHN8ZW58MXx8fHwxNzYwNDIxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'Dos Equis',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/DosEquis/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwc3RhZ2UlMjBsaWdodHN8ZW58MXx8fHwxNzYwNDIxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwY29uY2VydCUyMGNyb3dkfGVufDF8fHx8MTc2MDQyMTc3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGZlc3RpdmFsJTIwc3RhZ2V8ZW58MXx8fHwxNzYwNDIxNzc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/DosEquis/01.jpg',
+        '/assets/galeria/images/DosEquis/02.jpg',
+        '/assets/galeria/images/DosEquis/03.jpg'
+      ]
     },
     {
       id: 4,
-      titulo: "Feria de Negocios ExpoMéxico",
-      fecha: "5 de Mayo, 2024",
-      ubicacion: "Centro Banamex",
-      categoria: "Feria",
-      descripcion:
-        "Instalación de stands con pantallas LED para exhibición de productos",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkZSUyMHNob3clMjBib290aHxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'ITESM',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/ITESM/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkZSUyMHNob3clMjBib290aHxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1464047736614-af63643285bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleGhpYml0aW9uJTIwaGFsbHxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1620987278429-ab178d6eb547?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwc2hvd2Nhc2V8ZW58MXx8fHwxNzU5ODY4Mzk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1690192123455-6337e6db4179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY2VsZWJyYXRpb258ZW58MXx8fHwxNzU5OTY3ODUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/ITESM/01.jpg',
+        '/assets/galeria/images/ITESM/02.jpg'
+      ]
     },
     {
       id: 5,
-      titulo: "Inauguración Centro Comercial Plaza del Sol",
-      fecha: "18 de Enero, 2024",
-      ubicacion: "Plaza del Sol",
-      categoria: "Inauguración",
-      descripcion:
-        "Pantallas LED digitales para inauguración y señalización comercial",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMG1hbGwlMjBkaWdpdGFsJTIwZGlzcGxheXxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'Nissan',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Nissan/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMG1hbGwlMjBkaWdpdGFsJTIwZGlzcGxheXxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdG9yZSUyMG9wZW5pbmclMjBldmVudHxlbnwxfHx8fDE3NjA0MjE3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/Nissan/01.jpg'
+      ]
     },
     {
       id: 6,
-      titulo: "Festival de Música Electrónica 2024",
-      fecha: "28 de Junio, 2024",
-      ubicacion: "Parque Fundidora",
-      categoria: "Entretenimiento",
-      descripcion:
-        "Sistemas LED de última generación para festival con 3 escenarios",
-      imagenPortada:
-        "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGZlc3RpdmFsJTIwc3RhZ2V8ZW58MXx8fHwxNzYwNDIxNzc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      titulo: 'Pharmatech',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Pharmatech/01.jpg',
       fotos: [
-        "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGZlc3RpdmFsJTIwc3RhZ2V8ZW58MXx8fHwxNzYwNDIxNzc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGZlc3RpdmFsJTIwc3RhZ2V8ZW58MXx8fHwxNzYwNDIxNzc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwc3RhZ2UlMjBsaWdodHN8ZW58MXx8fHwxNzYwNDIxNzc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      ],
+        '/assets/galeria/images/Pharmatech/01.jpg',
+        '/assets/galeria/images/Pharmatech/02.jpg',
+        '/assets/galeria/images/Pharmatech/03.jpg',
+        '/assets/galeria/images/Pharmatech/04.jpg',
+      ]
     },
+    {
+      id: 7,
+      titulo: 'Roche',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Roche/01.jpg',
+      fotos: [
+        '/assets/galeria/images/Roche/01.jpg',
+        '/assets/galeria/images/Roche/02.jpg'
+      ]
+    },
+    {
+      id: 8,
+      titulo: 'Tecate',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Tecate/01.jpg',
+      fotos: [
+        '/assets/galeria/images/Tecate/01.jpg'
+      ]
+    },
+    {
+      id: 9,
+      titulo: 'Varios Eventos',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Eventos',
+      descripcion: 'Instalación de pantallas LED para eventos',
+      imagenPortada: '/assets/galeria/images/Varios/01.jpg',
+      fotos: [
+        '/assets/galeria/images/Varios/01.jpg',
+        '/assets/galeria/images/Varios/02.jpg',
+        '/assets/galeria/images/Varios/03.jpg',
+        '/assets/galeria/images/Varios/04.jpg',
+        '/assets/galeria/images/Varios/05.jpg',
+        '/assets/galeria/images/Varios/06.jpg',
+        '/assets/galeria/images/Varios/07.jpg',
+        '/assets/galeria/images/Varios/08.jpg',
+        '/assets/galeria/images/Varios/09.jpg',
+        '/assets/galeria/images/Varios/10.jpg',
+        '/assets/galeria/images/Varios/11.jpg',
+        '/assets/galeria/images/Varios/12.jpg',
+        '/assets/galeria/images/Varios/13.jpg',
+        '/assets/galeria/images/Varios/14.jpg',
+        '/assets/galeria/images/Varios/15.jpg',
+        '/assets/galeria/images/Varios/16.jpg',
+        '/assets/galeria/images/Varios/17.jpg',
+        '/assets/galeria/images/Varios/18.jpg'
+      ]
+    },
+    {
+      id: 10,
+      titulo: 'Banners',
+      fecha: '',
+      ubicacion: '',
+      categoria: 'Banners',
+      descripcion: 'Diseño e impresión de banners personalizados',
+      imagenPortada: '/assets/galeria/images/Banners/01.jpg',
+      fotos: [
+        '/assets/galeria/images/Banners/01.jpg',
+        '/assets/galeria/images/Banners/02.jpg',
+        '/assets/galeria/images/Banners/03.jpg',
+        '/assets/galeria/images/Banners/04.jpg'
+      ]
+    }
   ];
 
   const videos = [
     {
-      src: "/videos/presentacion-start-led.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
-      title: "Presentación START LED",
-      description:
-        "Conoce nuestras soluciones en pantallas LED",
+      src: '/assets/galeria/videos/01.mp4',
+      poster: '/assets/galeria/videos/posters/01.png',
+      title: '',
+      description: ''
     },
     {
-      src: "/videos/testimonios-clientes.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1566140967404-b8b3932483f5?w=800",
-      title: "Testimonios de Clientes",
-      description:
-        "Lo que nuestros clientes dicen sobre nosotros",
+      src: '/assets/galeria/videos/02.mp4',
+      poster: '/assets/galeria/videos/posters/02.png',
+      title: '',
+      description: ''
     },
     {
-      src: "/videos/instalacion-pantallas.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?w=800",
-      title: "Instalación de Pantallas LED",
-      description: "Proceso profesional de instalación",
+      src: '/assets/galeria/videos/03.mp4',
+      poster: '/assets/galeria/videos/posters/03.png',
+      title: '',
+      description: ''
     },
     {
-      src: "/videos/proyectos-destacados.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
-      title: "Proyectos Destacados",
-      description: "Nuestros casos de éxito más recientes",
+      src: '/assets/galeria/videos/04.mp4',
+      poster: '/assets/galeria/videos/posters/04.png',
+      title: '',
+      description: ''
     },
     {
-      src: "/videos/tecnologia-led.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1620987278429-ab178d6eb547?w=800",
-      title: "Tecnología LED de Última Generación",
-      description: "Innovación y calidad en cada proyecto",
-    },
-    {
-      src: "/videos/eventos-conferencias.mp4",
-      poster:
-        "https://images.unsplash.com/photo-1690192123455-6337e6db4179?w=800",
-      title: "Eventos y Conferencias",
-      description: "Nuestras pantallas LED en acción",
-    },
+      src: '/assets/galeria/videos/05.mp4',
+      poster: '/assets/galeria/videos/posters/05.png',
+      title: '',
+      description: ''
+    }
   ];
-
   return (
     <section id="galeria-eventos" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -236,7 +271,7 @@ export function Galeria() {
                       <h3 className="text-white mb-2">
                         {evento.titulo}
                       </h3>
-                      <div className="flex items-center gap-4 text-white/80 text-sm">
+                      {/* <div className="flex items-center gap-4 text-white/80 text-sm">
                         <div className="flex items-center gap-1">
                           <Calendar className="w-4 h-4" />
                           <span>{evento.fecha}</span>
@@ -245,7 +280,7 @@ export function Galeria() {
                           <MapPin className="w-4 h-4" />
                           <span>{evento.ubicacion}</span>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Card>

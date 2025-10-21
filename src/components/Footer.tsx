@@ -17,7 +17,7 @@ export function Footer() {
             <div className="space-y-2 text-gray-300">
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                5614484128 / 5615003610
+                5662685200
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
@@ -26,6 +26,10 @@ export function Footer() {
               <p className="flex items-center gap-2">
                 <Instagram className="w-4 h-4" />
                 @startled2809
+              </p>
+              <p className="flex items-center gap-2">
+                <Facebook className="w-4 h-4" />
+                Start Led
               </p>
             </div>
           </div>

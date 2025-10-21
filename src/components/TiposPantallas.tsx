@@ -39,7 +39,7 @@ export function TiposPantallas() {
               {/* Imagen */}
               <div className="relative bg-white p-8 flex items-center justify-center">
                 <img
-                  src={pantallasImage}
+                  src="/assets/galeria/Pantallas.webp"
                   alt="Pantallas LED Modulares"
                   className="w-full h-full object-contain"
                 />
