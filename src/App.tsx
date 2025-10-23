@@ -2,7 +2,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { QuienesSomos } from "./components/QuienesSomos";
 import { NuestrosCompromisos } from "./components/NuestrosCompromisos";
-import { TiposPantallas } from "./components/TiposPantallas";
+import { Productos } from "./components/Productos";
 import { Galeria } from "./components/Galeria";
 import { Contacto } from "./components/Contacto";
 import { Footer } from "./components/Footer";
@@ -16,7 +16,7 @@ export default function App() {
         <Hero />
         <QuienesSomos />
         <NuestrosCompromisos />
-        <TiposPantallas />
+        <Productos />
         <Galeria />
         <Contacto />
       </main>

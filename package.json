@@ -1,5 +1,5 @@
 {
-      "name": "Start Led",
+      "name": "start-led",
       "version": "0.1.0",
       "private": true,
       "dependencies": {

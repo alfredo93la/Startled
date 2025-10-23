@@ -11,38 +11,26 @@ export function Footer() {
               Renta de pantallas de gran formato. Tecnología LED de vanguardia para tus eventos.
             </p>
           </div>
-          
+          <div></div>
           <div>
             <h4 className="mb-4 text-[#00d4ff]">Contacto</h4>
             <div className="space-y-2 text-gray-300">
-              <p className="flex items-center gap-2">
+              <a className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 5662685200
-              </p>
-              <p className="flex items-center gap-2">
+              </a>
+              <a className="flex items-center gap-2" href="mailto:startled7@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Mail className="w-4 h-4" />
                 startled7@gmail.com
-              </p>
-              <p className="flex items-center gap-2">
+              </a>
+              <a className="flex items-center gap-2" href="https://instagram.com/startled2809" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-4 h-4" />
                 @startled2809
-              </p>
-              <p className="flex items-center gap-2">
+              </a>
+              <a className="flex items-center gap-2" href="https://facebook.com/startled2809" target="_blank" rel="noopener noreferrer">
                 <Facebook className="w-4 h-4" />
                 Start Led
-              </p>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="mb-4 text-[#00d4ff]">Nuestro Compromiso</h4>
-            <p className="text-gray-300">
-              Calidad, Confiabilidad e Innovación en cada proyecto.
-            </p>
-            <div className="mt-4 p-4 bg-white/10 rounded-lg">
-              <p className="text-sm text-cyan-200">
-                SOMOS TU SOCIO COMERCIAL PARA EL ÉXITO DE TU EVENTO
-              </p>
+              </a>
             </div>
           </div>
         </div>

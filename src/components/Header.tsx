@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import logoImage from "figma:asset/d86338cda4becd11433c9d83aa6a810926cdb23d.png";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,17 +41,24 @@ export function Header() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00d4ff] transition-all group-hover:w-full"></span>
             </button>
             <button
-              onClick={() => scrollToSection("nuestros-compromisos")}
+              onClick={() => scrollToSection("nuestra-mision")}
               className="text-white hover:text-[#00d4ff] transition-all duration-300 hover:scale-105 relative group"
             >
-              Nuestros Compromisos
+              Misión
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00d4ff] transition-all group-hover:w-full"></span>
             </button>
             <button
-              onClick={() => scrollToSection("tipos-pantallas")}
+              onClick={() => scrollToSection("nuestros-compromisos")}
               className="text-white hover:text-[#00d4ff] transition-all duration-300 hover:scale-105 relative group"
             >
-              Pantallas
+              Compromisos
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00d4ff] transition-all group-hover:w-full"></span>
+            </button>
+            <button
+              onClick={() => scrollToSection("productos")}
+              className="text-white hover:text-[#00d4ff] transition-all duration-300 hover:scale-105 relative group"
+            >
+              Productos
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00d4ff] transition-all group-hover:w-full"></span>
             </button>
             <button
@@ -90,16 +96,22 @@ export function Header() {
               ¿Quiénes somos?
             </button>
             <button
-              onClick={() => scrollToSection("servicios")}
+              onClick={() => scrollToSection("nuestra-mision")}
               className="text-left text-white hover:text-[#00d4ff] transition-colors py-2 border-b border-white/20"
             >
-              Servicios
+              Misión
             </button>
             <button
-              onClick={() => scrollToSection("tipos-pantallas")}
+              onClick={() => scrollToSection("nuestros-compromisos")}
               className="text-left text-white hover:text-[#00d4ff] transition-colors py-2 border-b border-white/20"
             >
-              Pantallas
+              Compromisos
+            </button>
+            <button
+              onClick={() => scrollToSection("productos")}
+              className="text-left text-white hover:text-[#00d4ff] transition-colors py-2 border-b border-white/20"
+            >
+              Productos
             </button>
             <button
               onClick={() => scrollToSection("galeria-eventos")}

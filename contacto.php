@@ -1,6 +1,37 @@
 <?php
-// Permite que React pueda enviar peticiones desde otro dominio
-header("Access-Control-Allow-Origin: *");
+// // Permite que React pueda enviar peticiones desde otro dominio
+// header("Access-Control-Allow-Origin: *");
+
+// --- INICIO DE CORRECCIÓN CORS (CON MÚLTIPLES DOMINIOS) ---
+
+// 1. Define tu lista de orígenes permitidos
+$allowed_origins = [
+    'https://www.startled.com.mx',
+    'https://startled.com.mx'
+];
+
+// 2. Comprueba si el origen de la petición (enviado por el navegador) está en tu lista
+if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $allowed_origins)) {
+    // Si está, permite ESE origen específico.
+    header("Access-Control-Allow-Origin: " . $_SERVER['HTTP_ORIGIN']);
+}
+// Nota: Si la petición viene de un origen no listado, no se enviará la cabecera
+// y el navegador la bloqueará, que es lo que queremos.
+
+// 3. Agrega los métodos permitidos (los mismos que antes)
+header("Access-Control-Allow-Methods: POST, OPTIONS");
+
+// 4. Permite el header 'Content-Type' (el mismo que antes)
+header("Access-Control-Allow-Headers: Content-Type");
+
+// 5. Maneja la solicitud 'preflight' (OPTIONS) (la misma que antes)
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    http_response_code(200); // Responde OK
+    exit; // No continúes con el resto del script
+}
+
+// --- FIN DE CORRECCIÓN CORS ---
+
 header("Content-Type: application/json");
 
 // Importa PHPMailer (asegúrate de subir la carpeta PHPMailer a tu hosting)
@@ -34,7 +65,7 @@ if ($data) {
 
         // Remitente y destinatario
         $mail->setFrom('contacto@startled.com.mx', 'Start Led'); // Tu correo
-        $mail->addAddress('contacto@startled.com.mx');       // Donde quieres recibir los mensajes
+        $mail->addAddress('startled7@gmail.com');       // Donde quieres recibir los mensajes
         $mail->addReplyTo($email, $nombre);               // Responder al usuario
 
         // Contenido del correo

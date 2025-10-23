@@ -1,5 +1,4 @@
 import { Button } from './ui/button';
-import heroImage from 'figma:asset/d3191688b876e4c6dc96182b46436a9f396331eb.png';
 
 export function Hero() {
   const scrollToContact = () => {
@@ -18,7 +17,7 @@ export function Hero() {
       ></div>
       
       {/* Gradient Overlay - Más transparente para ver mejor la imagen */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a4c]/60 via-[#2a1a5e]/50 to-[#1e3a4c]/60"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a4c]/45 via-[#2a1a5e]/40 to-[#1e3a4c]/50"></div>
       
       {/* Diagonal accent */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-[#00d4ff]/10 to-transparent transform skew-x-12"></div>
@@ -26,10 +25,10 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-4 py-32">
         <div className="max-w-4xl mx-auto text-center text-white space-y-8">
           <h1 className="text-5xl md:text-6xl uppercase tracking-tight text-white">
-            SABEMOS QUE CADA PIXEL CUENTA Y CADA CLIENTE IMPORTA
+            RENTA DE PANTALLAS DE GRAN FORMATO
           </h1>
           <p className="text-xl md:text-2xl text-cyan-200">
-            Renta de pantallas de gran formato
+            Sabemos que cada pixel cuenta y cada cliente importa
           </p>
           <div className="space-y-4">
             <p className="text-lg md:text-xl">

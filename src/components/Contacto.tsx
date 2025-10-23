@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -60,9 +60,6 @@ export function Contacto() {
 
   return (
     <section id="contacto" className="py-20 bg-white relative overflow-hidden">
-      {/* Diagonal accent */}
-      <div className="absolute top-0 right-0 w-full h-32 bg-gradient-to-l from-[#2a1a5e] to-[#1e3a4c] transform -skew-y-2"></div>
-      
       <div className="container mx-auto px-4 relative z-10 pt-16">
         <div className="text-center mb-12">
           <div className="inline-block bg-[#2c4f64] text-white px-8 py-3 mb-6 transform -skew-x-6">
@@ -106,7 +103,7 @@ export function Contacto() {
           <div>
             <Card className="border-2 border-[#00d4ff]/30">
               <CardContent className="p-6">
-                <h3 className="mb-6">Envíanos un Mensaje</h3>
+                <h3 className="mb-6">Cotizaciones</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
                     <label className="block mb-2">Nombre</label>

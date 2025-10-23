@@ -5,19 +5,19 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function NuestrosCompromisos() {
   const compromisos = [
     {
-      icon: Award,
+      //icon: Award,
       title: 'Calidad',
       description: 'Estamos comprometidos con la calidad en el servicio con un trato personalizado, especializado, amable y responsable.',
       bgImage: '/assets/calidad.jpg'
     },
     {
-      icon: Shield,
+      //icon: Shield,
       title: 'Confiabilidad',
       description: 'Estamos conscientes que el cliente requiere de ofrecer credibilidad en sus servicios o productos, por lo que, nuestras pantallas, nuestro equipo técnico y de soporte están para ofrecer la mejor calidad para ofrecer esa seguridad requerida.',
       bgImage: '/assets/confiabilidad.jpg'
     },
     {
-      icon: Lightbulb,
+      //icon: Lightbulb,
       title: 'Innovación',
       description: 'Contamos con pantallas de 3.9, 2.9 mm y lo último en 2.6 mm Pixel Pitch de 1000 nits con resolución de alta definición para exposición frontal, horizontal, vertical o cenital de forma recta o curva.',
       bgImage: '/assets/innovacion.jpg'
@@ -49,15 +49,15 @@ export function NuestrosCompromisos() {
                   alt={compromiso.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#1e3a4c]/85 via-[#2a1a5e]/65 to-[#1e3a4c]/85"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-[#1e3a4c]/45 via-[#2a1a5e]/40 to-[#1e3a4c]/50"></div>
               </div>
               
               <CardContent className="p-8 text-center relative z-10">
-                <div className="w-20 h-20 bg-[#00d4ff] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                {/* <div className="w-20 h-20 bg-[#00d4ff] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                   <compromiso.icon className="w-10 h-10 text-[#1e3a4c]" />
-                </div>
+                </div> */}
                 <h3 className="mb-4 text-white">{compromiso.title}</h3>
-                <p className="text-gray-300 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-h-0 group-hover:max-h-96 overflow-hidden">
+                <p className="text-white leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-h-0 group-hover:max-h-96 overflow-hidden">
                   {compromiso.description}
                 </p>
               </CardContent>
