@@ -34,7 +34,7 @@ export function Productos() {
   ];
 
   return (
-    <section id="productos" className="py-20 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <section id="productos" className="py-20 bg-linear-to-r from-cyan-50 to-blue-200 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         {/* Título de la sección */}
         <div className="text-center mb-16">

@@ -2,7 +2,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function QuienesSomos() {
   return (
-    <section id="quienes-somos" className="py-20 bg-white relative overflow-hidden">
+    <section id="quienes-somos" className="py-20 bg-linear-to-r from-cyan-50 to-blue-200 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10 pt-8">
         <div className="max-w-6xl mx-auto">
           {/* Quiénes Somos - Imagen con texto superpuesto */}

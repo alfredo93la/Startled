@@ -49,9 +49,10 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Anidigraf/01.jpg',
+      imagenPortada: '/assets/galeria/images/Anidigraf/01.jpeg',
       fotos: [
-        '/assets/galeria/images/Anidigraf/01.jpg'
+        '/assets/galeria/images/Anidigraf/01.jpeg',
+        '/assets/galeria/images/Anidigraf/02.jpeg'
       ]
     },
     {
@@ -221,14 +222,50 @@ export function Galeria() {
       poster: '/assets/galeria/videos/posters/05.png',
       title: '',
       description: ''
+    },
+    {
+      src: '/assets/galeria/videos/06.mp4',
+      poster: '/assets/galeria/videos/posters/06.png',
+      title: '',
+      description: ''
+    },
+    {
+      src: '/assets/galeria/videos/07.mp4',
+      poster: '/assets/galeria/videos/posters/07.png',
+      title: '',
+      description: ''
+    },
+    {
+      src: '/assets/galeria/videos/08.mp4',
+      poster: '/assets/galeria/videos/posters/08.png',
+      title: '',
+      description: ''
+    },
+    {
+      src: '/assets/galeria/videos/09.mp4',
+      poster: '/assets/galeria/videos/posters/09.png',
+      title: '',
+      description: ''
+    },
+    {
+      src: '/assets/galeria/videos/10.mp4',
+      poster: '/assets/galeria/videos/posters/10.png',
+      title: '',
+      description: ''
+    },
+    {
+      src: '/assets/galeria/videos/11.mp4',
+      poster: '/assets/galeria/videos/posters/11.png',
+      title: '',
+      description: ''
     }
   ];
   return (
-    <section id="galeria-eventos" className="py-20 bg-gray-50">
+    <section id="galeria-eventos" className="py-20 bg-gradient-to-br from-[#2a1a5e] to-[#1e3a4c]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <div className="inline-block bg-gradient-to-r from-[#1e3a4c] to-[#2a1a5e] text-white px-8 py-3 mb-6 transform -skew-x-6">
-            <h2 className="transform skew-x-6 text-white">Galería</h2>
+          <div className="inline-block bg-[#00d4ff] text-[#1e3a4c] px-8 py-3 mb-6 transform -skew-x-6 shadow-lg">
+            <h2 className="transform skew-x-6">Galería</h2>
           </div>
         </div>
 
@@ -236,7 +273,7 @@ export function Galeria() {
           defaultValue="fotos"
           className="max-w-7xl mx-auto"
         >
-          <TabsList className="grid w-full max-w-md mx-auto mb-12 grid-cols-2">
+          <TabsList className="grid w-full max-w-md mx-auto mb-12 grid-cols-2 bg-sky-300">
             <TabsTrigger value="fotos">Fotos</TabsTrigger>
             <TabsTrigger value="videos">Videos</TabsTrigger>
           </TabsList>
@@ -340,10 +377,10 @@ export function Galeria() {
                   <h2 className="text-white mb-2">
                     {eventoSeleccionado.titulo}
                   </h2>
-                  <p className="text-white/70 mb-4">
+                  {/* <p className="text-white/70 mb-4">
                     {eventoSeleccionado.descripcion}
                   </p>
-                  <div className="flex flex-wrap gap-4 text-white/80 text-sm">
+                   <div className="flex flex-wrap gap-4 text-white/80 text-sm">
                     <div className="flex items-center gap-2">
                       <Calendar className="w-4 h-4 text-[#00d4ff]" />
                       <span>{eventoSeleccionado.fecha}</span>
@@ -354,7 +391,7 @@ export function Galeria() {
                         {eventoSeleccionado.ubicacion}
                       </span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <button
                   onClick={() => setEventoSeleccionado(null)}

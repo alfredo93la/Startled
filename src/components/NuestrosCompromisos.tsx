@@ -31,8 +31,8 @@ export function NuestrosCompromisos() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <div className="inline-block bg-[#2c4f64] text-white px-8 py-3 mb-6 transform -skew-x-6">
-            <h2 className="transform skew-x-6 text-white">Nuestros Compromisos</h2>
+          <div className="inline-block bg-[#00d4ff] text-[#1e3a4c] px-8 py-3 mb-6 transform -skew-x-6 shadow-lg">
+            <h2 className="transform skew-x-6">Nuestros Compromisos</h2>
           </div>
           <p className="text-cyan-200 text-lg max-w-3xl mx-auto">
             Comprometidos con la excelencia en cada proyecto
