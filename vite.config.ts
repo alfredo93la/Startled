@@ -1,11 +1,12 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+import tailwindcss from '@tailwindcss/vite';
+import path from 'path';
 
-  import { defineConfig } from 'vite';
-  import react from '@vitejs/plugin-react-swc';
-  import tailwindcss from '@tailwindcss/vite';
-  import path from 'path';
-
-  export default defineConfig({
+export default defineConfig(({ command }) => {
+  return {
     plugins: [tailwindcss(), react()],
+    base: command === 'serve' ? '/' : '/Startled/', // <-- Ajuste automático para GitHub Pages y Local
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -61,4 +62,5 @@
       port: 3000,
       open: true,
     },
-  });
+  };
+});
