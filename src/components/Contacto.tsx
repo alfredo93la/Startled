@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram, Facebook, MessageCircle, MapPin } from 'lucide-react';
+import { Phone, Mail, Instagram, Facebook, MessageCircle, MapPin, MessageSquare } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -34,6 +34,11 @@ export function Contacto() {
   const contactInfo = [
     {
       icon: Phone,
+      title: 'Teléfonos (Atención directa)',
+      details: ['5536610757', '5614484128'],
+    },
+    {
+      icon: MessageSquare,
       title: 'WhatsApp',
       details: ['5662685200'],
       link: 'https://wa.me/525662685200'
@@ -70,12 +75,12 @@ export function Contacto() {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 h-125">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
-          <div className="space-y-6">
-            <div className="bg-gradient-to-br from-[#1e3a4c] to-[#2a1a5e] text-white p-8 rounded-lg h-full">
+          <div className="space-y-1">
+            <div className="bg-gradient-to-br from-[#1e3a4c] to-[#2a1a5e] text-white p-8 rounded-lg h-125">
               <h3 className="mb-6 text-white">Información de Contacto</h3>
-              <div className="space-y-6">
+              <div className="space-y-1">
                 {contactInfo.map((info, index) => (
                   <a
                     key={index}
@@ -101,7 +106,7 @@ export function Contacto() {
 
           {/* Contact Form */}
           <div>
-            <Card className="border-2 border-[#00d4ff]/30  h-full">
+            <Card className="border-2 border-[#00d4ff]/30  h-125">
               <CardContent className="p-6">
                 <h3 className="mb-6">Cotizaciones</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -143,6 +148,7 @@ export function Contacto() {
                       required
                       rows={4}
                       className="border-gray-300 focus:border-[#00d4ff]"
+                      placeholder='Describe el servicio que requieres, la fecha de montaje y desmontaje, el lugar del evento y cualquier detalle adicional.'
                     />
                   </div>
                   <Button

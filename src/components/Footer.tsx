@@ -16,6 +16,10 @@ export function Footer() {
             <h4 className="mb-4 text-[#00d4ff]">Contacto</h4>
             <div className="space-y-2 text-gray-300">
               <a className="flex items-center gap-2">
+                <Phone className="w-4 h-4" />Atención directa: 
+                5536610757   /   5614484128 
+              </a>
+              <a className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 5662685200
               </a>

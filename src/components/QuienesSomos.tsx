@@ -21,7 +21,7 @@ export function QuienesSomos() {
                 <div className="inline-block bg-[#00d4ff] text-[#1e3a4c] px-8 py-3 mb-6 transform -skew-x-6 shadow-lg">
                   <h2 className="transform skew-x-6">¿Quiénes somos?</h2>
                 </div>
-                <p className="text-white text-lg leading-relaxed text-justify drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+                <p className="text-white leading-relaxed text-justify drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
                   START LED es una empresa especializada en transformar experiencias visuales en la industria de eventos corporativos, de entretenimiento y espectáculos, con el arrendamiento de <strong>pantallas Led</strong> en gran formato y con tecnología de vanguardia.
                 </p>
               </div>
@@ -44,7 +44,7 @@ export function QuienesSomos() {
                 <div className="inline-block bg-[#00d4ff] text-[#1e3a4c] px-8 py-3 mb-6 transform -skew-x-6 shadow-lg">
                   <h3 className="transform skew-x-6">Nuestra Misión</h3>
                 </div>
-                <p className="text-white text-lg leading-relaxed text-justify drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+                <p className="text-white leading-relaxed text-justify drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
                   Transformar cada uno de los eventos de nuestros clientes, en una experiencia visual inolvidable que despierte emoción, inspiración y conexión en sus expectantes alcanzando los objetivos deseados y coadyuvando con el potencial que les caracteriza.
                 </p>
               </div>
