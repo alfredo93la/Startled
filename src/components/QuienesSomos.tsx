@@ -8,7 +8,7 @@ export function QuienesSomos() {
           {/* Quiénes Somos - Imagen con texto superpuesto */}
           <div className="relative w-full mb-16 rounded-lg overflow-hidden shadow-xl">
             <ImageWithFallback
-              src="/assets/led_screen0.jpg"
+              src="assets/led_screen0.jpg"
               alt="Pantalla LED corporativa"
               className="w-full h-[500px] object-cover"
             />
@@ -31,7 +31,7 @@ export function QuienesSomos() {
           {/* Nuestra Misión - Imagen con texto superpuesto */}
           <div id="nuestra-mision" className="relative w-full rounded-lg overflow-hidden shadow-xl">
             <ImageWithFallback
-              src="/assets/led_screen1.png"
+              src="assets/led_screen1.png"
               alt="Pantalla LED Video Wall"
               className="w-full h-[500px] object-cover"
             />

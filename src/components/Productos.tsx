@@ -50,7 +50,7 @@ export function Productos() {
               {/* Imagen */}
               <div className="relative bg-white p-8 flex items-center justify-center">
                 <img
-                  src="/assets/Pantallas.jpg"
+                  src="assets/Pantallas.jpg"
                   alt="Pantallas LED Modulares"
                   className="w-full h-full object-contain"
                 />
@@ -99,7 +99,7 @@ export function Productos() {
               {/* Imagen - Aparece segunda (a la derecha) */}
               <div className="relative bg-white p-8 flex items-center justify-center">
                 <ImageWithFallback
-                  src="/assets/led-screen-poster-1.jpg"
+                  src="assets/led-screen-poster-1.jpg"
                   alt="Pantallas LED para Exteriores"
                   className="w-full h-full object-contain"
                 />

@@ -6,7 +6,7 @@ import path from 'path';
 export default defineConfig(({ command }) => {
   return {
     plugins: [tailwindcss(), react()],
-    base: command === 'serve' ? '/' : '/Startled/', // <-- Ajuste automático para GitHub Pages y Local
+    base: '/', // <-- Ajuste automático para GitHub Pages y Local
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

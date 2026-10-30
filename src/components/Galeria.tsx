@@ -49,10 +49,10 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Anidigraf/01.jpeg',
+      imagenPortada: 'assets/galeria/images/Anidigraf/01.jpeg',
       fotos: [
-        '/assets/galeria/images/Anidigraf/01.jpeg',
-        '/assets/galeria/images/Anidigraf/02.jpeg'
+        'assets/galeria/images/Anidigraf/01.jpeg',
+        'assets/galeria/images/Anidigraf/02.jpeg'
       ]
     },
     {
@@ -62,9 +62,9 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/AstraZeneca/01.jpg',
+      imagenPortada: 'assets/galeria/images/AstraZeneca/01.jpg',
       fotos: [
-        '/assets/galeria/images/AstraZeneca/01.jpg'
+        'assets/galeria/images/AstraZeneca/01.jpg'
       ]
     },
     {
@@ -74,11 +74,11 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/DosEquis/01.jpg',
+      imagenPortada: 'assets/galeria/images/DosEquis/01.jpg',
       fotos: [
-        '/assets/galeria/images/DosEquis/01.jpg',
-        '/assets/galeria/images/DosEquis/02.jpg',
-        '/assets/galeria/images/DosEquis/03.jpg'
+        'assets/galeria/images/DosEquis/01.jpg',
+        'assets/galeria/images/DosEquis/02.jpg',
+        'assets/galeria/images/DosEquis/03.jpg'
       ]
     },
     {
@@ -88,10 +88,10 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/ITESM/01.jpg',
+      imagenPortada: 'assets/galeria/images/ITESM/01.jpg',
       fotos: [
-        '/assets/galeria/images/ITESM/01.jpg',
-        '/assets/galeria/images/ITESM/02.jpg'
+        'assets/galeria/images/ITESM/01.jpg',
+        'assets/galeria/images/ITESM/02.jpg'
       ]
     },
     {
@@ -101,9 +101,9 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Nissan/01.jpg',
+      imagenPortada: 'assets/galeria/images/Nissan/01.jpg',
       fotos: [
-        '/assets/galeria/images/Nissan/01.jpg'
+        'assets/galeria/images/Nissan/01.jpg'
       ]
     },
     {
@@ -113,12 +113,12 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Pharmatech/01.jpg',
+      imagenPortada: 'assets/galeria/images/Pharmatech/01.jpg',
       fotos: [
-        '/assets/galeria/images/Pharmatech/01.jpg',
-        '/assets/galeria/images/Pharmatech/02.jpg',
-        '/assets/galeria/images/Pharmatech/03.jpg',
-        '/assets/galeria/images/Pharmatech/04.jpg',
+        'assets/galeria/images/Pharmatech/01.jpg',
+        'assets/galeria/images/Pharmatech/02.jpg',
+        'assets/galeria/images/Pharmatech/03.jpg',
+        'assets/galeria/images/Pharmatech/04.jpg',
       ]
     },
     {
@@ -128,10 +128,10 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Roche/01.jpg',
+      imagenPortada: 'assets/galeria/images/Roche/01.jpg',
       fotos: [
-        '/assets/galeria/images/Roche/01.jpg',
-        '/assets/galeria/images/Roche/02.jpg'
+        'assets/galeria/images/Roche/01.jpg',
+        'assets/galeria/images/Roche/02.jpg'
       ]
     },
     {
@@ -141,9 +141,9 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Tecate/01.jpg',
+      imagenPortada: 'assets/galeria/images/Tecate/01.jpg',
       fotos: [
-        '/assets/galeria/images/Tecate/01.jpg'
+        'assets/galeria/images/Tecate/01.jpg'
       ]
     },
     {
@@ -153,26 +153,26 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Eventos',
       descripcion: 'Instalación de pantallas LED para eventos',
-      imagenPortada: '/assets/galeria/images/Varios/01.jpg',
+      imagenPortada: 'assets/galeria/images/Varios/01.jpg',
       fotos: [
-        '/assets/galeria/images/Varios/01.jpg',
-        '/assets/galeria/images/Varios/02.jpg',
-        '/assets/galeria/images/Varios/03.jpg',
-        '/assets/galeria/images/Varios/04.jpg',
-        '/assets/galeria/images/Varios/05.jpg',
-        '/assets/galeria/images/Varios/06.jpg',
-        '/assets/galeria/images/Varios/07.jpg',
-        '/assets/galeria/images/Varios/08.jpg',
-        '/assets/galeria/images/Varios/09.jpg',
-        '/assets/galeria/images/Varios/10.jpg',
-        '/assets/galeria/images/Varios/11.jpg',
-        '/assets/galeria/images/Varios/12.jpg',
-        '/assets/galeria/images/Varios/13.jpg',
-        '/assets/galeria/images/Varios/14.jpg',
-        '/assets/galeria/images/Varios/15.jpg',
-        '/assets/galeria/images/Varios/16.jpg',
-        '/assets/galeria/images/Varios/17.jpg',
-        '/assets/galeria/images/Varios/18.jpg'
+        'assets/galeria/images/Varios/01.jpg',
+        'assets/galeria/images/Varios/02.jpg',
+        'assets/galeria/images/Varios/03.jpg',
+        'assets/galeria/images/Varios/04.jpg',
+        'assets/galeria/images/Varios/05.jpg',
+        'assets/galeria/images/Varios/06.jpg',
+        'assets/galeria/images/Varios/07.jpg',
+        'assets/galeria/images/Varios/08.jpg',
+        'assets/galeria/images/Varios/09.jpg',
+        'assets/galeria/images/Varios/10.jpg',
+        'assets/galeria/images/Varios/11.jpg',
+        'assets/galeria/images/Varios/12.jpg',
+        'assets/galeria/images/Varios/13.jpg',
+        'assets/galeria/images/Varios/14.jpg',
+        'assets/galeria/images/Varios/15.jpg',
+        'assets/galeria/images/Varios/16.jpg',
+        'assets/galeria/images/Varios/17.jpg',
+        'assets/galeria/images/Varios/18.jpg'
       ]
     },
     {
@@ -182,80 +182,80 @@ export function Galeria() {
       ubicacion: '',
       categoria: 'Banners',
       descripcion: 'Diseño e impresión de banners personalizados',
-      imagenPortada: '/assets/galeria/images/Banners/01.jpg',
+      imagenPortada: 'assets/galeria/images/Banners/01.jpg',
       fotos: [
-        '/assets/galeria/images/Banners/01.jpg',
-        '/assets/galeria/images/Banners/02.jpg',
-        '/assets/galeria/images/Banners/03.jpg',
-        '/assets/galeria/images/Banners/04.jpg'
+        'assets/galeria/images/Banners/01.jpg',
+        'assets/galeria/images/Banners/02.jpg',
+        'assets/galeria/images/Banners/03.jpg',
+        'assets/galeria/images/Banners/04.jpg'
       ]
     }
   ];
 
   const videos = [
     {
-      src: '/assets/galeria/videos/01.mp4',
-      poster: '/assets/galeria/videos/posters/01.png',
+      src: 'assets/galeria/videos/01.mp4',
+      poster: 'assets/galeria/videos/posters/01.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/02.mp4',
-      poster: '/assets/galeria/videos/posters/02.png',
+      src: 'assets/galeria/videos/02.mp4',
+      poster: 'assets/galeria/videos/posters/02.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/03.mp4',
-      poster: '/assets/galeria/videos/posters/03.png',
+      src: 'assets/galeria/videos/03.mp4',
+      poster: 'assets/galeria/videos/posters/03.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/04.mp4',
-      poster: '/assets/galeria/videos/posters/04.png',
+      src: 'assets/galeria/videos/04.mp4',
+      poster: 'assets/galeria/videos/posters/04.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/05.mp4',
-      poster: '/assets/galeria/videos/posters/05.png',
+      src: 'assets/galeria/videos/05.mp4',
+      poster: 'assets/galeria/videos/posters/05.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/06.mp4',
-      poster: '/assets/galeria/videos/posters/06.png',
+      src: 'assets/galeria/videos/06.mp4',
+      poster: 'assets/galeria/videos/posters/06.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/07.mp4',
-      poster: '/assets/galeria/videos/posters/07.png',
+      src: 'assets/galeria/videos/07.mp4',
+      poster: 'assets/galeria/videos/posters/07.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/08.mp4',
-      poster: '/assets/galeria/videos/posters/08.png',
+      src: 'assets/galeria/videos/08.mp4',
+      poster: 'assets/galeria/videos/posters/08.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/09.mp4',
-      poster: '/assets/galeria/videos/posters/09.png',
+      src: 'assets/galeria/videos/09.mp4',
+      poster: 'assets/galeria/videos/posters/09.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/10.mp4',
-      poster: '/assets/galeria/videos/posters/10.png',
+      src: 'assets/galeria/videos/10.mp4',
+      poster: 'assets/galeria/videos/posters/10.png',
       title: '',
       description: ''
     },
     {
-      src: '/assets/galeria/videos/11.mp4',
-      poster: '/assets/galeria/videos/posters/11.png',
+      src: 'assets/galeria/videos/11.mp4',
+      poster: 'assets/galeria/videos/posters/11.png',
       title: '',
       description: ''
     }

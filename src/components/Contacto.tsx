@@ -1,11 +1,11 @@
-import { Phone, Mail, Instagram, Facebook, MessageCircle, MapPin, MessageSquare } from 'lucide-react';
+import { Phone, Mail, Instagram, Facebook, MessageSquare } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
 import { toast } from 'sonner';
 import { useState } from 'react';
-import axios from 'axios';
+import emailjs from '@emailjs/browser';
 
 export function Contacto() {
   const [formData, setFormData] = useState({
@@ -15,21 +15,27 @@ export function Contacto() {
     mensaje: ''
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
-  try {
-    const response = await axios.post('https://startled.com.mx/contacto.php', formData);
-    if (response.data.status === 'success') {
+    e.preventDefault();
+    setLoading(true);
+
+    const serviceID = 'service_78qwycr';
+    const templateID = 'template_pl1sfbu';
+    const publicKey = 'KrZXG7vZ1lnAiW3SV';
+
+    try {
+      await emailjs.send(serviceID, templateID, formData, publicKey);
       toast.success('¡Mensaje enviado! Nos pondremos en contacto contigo pronto.');
       setFormData({ nombre: '', email: '', telefono: '', mensaje: '' });
-    } else {
+    } catch (error) {
+      console.error(error);
       toast.error('Error al enviar el mensaje. Intenta más tarde.');
+    } finally {
+      setLoading(false);
     }
-  } catch (error) {
-    console.error(error);
-    toast.error('Error al enviar el mensaje. Intenta más tarde.');
-  }
-};
+  };
 
   const contactInfo = [
     {
@@ -106,7 +112,7 @@ export function Contacto() {
 
           {/* Contact Form */}
           <div>
-            <Card className="border-2 border-[#00d4ff]/30  h-125">
+            <Card className="border-2 border-[#00d4ff]/30 h-125">
               <CardContent className="p-6">
                 <h3 className="mb-6">Cotizaciones</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -148,14 +154,15 @@ export function Contacto() {
                       required
                       rows={4}
                       className="border-gray-300 focus:border-[#00d4ff]"
-                      placeholder='Describe el servicio que requieres, la fecha de montaje y desmontaje, el lugar del evento y cualquier detalle adicional.'
+                      placeholder="Describe el servicio que requieres, la fecha de montaje y desmontaje, el lugar del evento y cualquier detalle adicional."
                     />
                   </div>
                   <Button
                     type="submit"
+                    disabled={loading}
                     className="w-full bg-[#1e3a4c] hover:bg-[#2c4f64]"
                   >
-                    Enviar Mensaje
+                    {loading ? 'Enviando...' : 'Enviar Mensaje'}
                   </Button>
                 </form>
               </CardContent>

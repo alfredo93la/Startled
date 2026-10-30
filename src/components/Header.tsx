@@ -25,7 +25,7 @@ export function Header() {
             onClick={() => scrollToSection("hero")}
           >
             <img
-              src="/assets/logo.png"
+              src="assets/logo.png"
               alt="START LED"
               className="h-12 md:h-16 drop-shadow-2xl"
             />

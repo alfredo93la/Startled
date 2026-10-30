@@ -8,19 +8,19 @@ export function NuestrosCompromisos() {
       //icon: Award,
       title: 'Calidad',
       description: 'Estamos comprometidos con la calidad en el servicio con un trato personalizado, especializado, amable y responsable.',
-      bgImage: '/assets/calidad.jpg'
+      bgImage: 'assets/calidad.jpg'
     },
     {
       //icon: Shield,
       title: 'Confiabilidad',
       description: 'Estamos conscientes que el cliente requiere de ofrecer credibilidad en sus servicios o productos, por lo que, nuestras pantallas, nuestro equipo técnico y de soporte están para ofrecer la mejor calidad para ofrecer esa seguridad requerida.',
-      bgImage: '/assets/confiabilidad.jpg'
+      bgImage: 'assets/confiabilidad.jpg'
     },
     {
       //icon: Lightbulb,
       title: 'Innovación',
       description: 'Contamos con pantallas de 3.9, 2.9 mm y lo último en 2.6 mm Pixel Pitch de 1000 nits con resolución de alta definición para exposición frontal, horizontal, vertical o cenital de forma recta o curva.',
-      bgImage: '/assets/innovacion.jpg'
+      bgImage: 'assets/innovacion.jpg'
     }
   ];
 

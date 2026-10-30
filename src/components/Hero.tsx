@@ -13,7 +13,7 @@ export function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
-        style={{ backgroundImage: `url('/assets/hero.png')` }}
+        style={{ backgroundImage: `url('assets/hero.png')` }}
       ></div>
       
       {/* Gradient Overlay - Más transparente para ver mejor la imagen */}
